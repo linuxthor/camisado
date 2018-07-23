@@ -1,5 +1,5 @@
 # camisado
-Linux kernel module that sends a UDP packet without being seen by userspace code.
+Linux kernel module that sends a UDP packet without being seen by code running in userspace.
 
 Uses the Kernel's netpoll API to send a packet at a low level (invisibly to tcpdump/pcap/wireshark etc)
 
